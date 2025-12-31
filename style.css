@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url("assets/bg.jpg") no-repeat center/cover;
+    color: #333;
+    text-align: center;
+}
+
+.music-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 80px 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.animal-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.animal-card img {
+    width: 120px;
+}
+
+#animal-text {
+    font-size: 1.2em;
+    margin: 20px;
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.gallery {
+    background: rgba(255,255,255,0.85);
+    padding: 50px 20px;
+}
+
+.photos img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.truth, .secret {
+    padding: 50px 20px;
+    background: rgba(255,255,255,0.9);
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff6f91;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: rgba(255,255,255,0.8);
+    padding: 15px;
+}
